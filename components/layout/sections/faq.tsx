@@ -13,32 +13,33 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "What exactly does FirstCustomer.ai do?",
+    answer:
+      "It simulates your startup's early journey by letting you talk to AI-generated users, pitch to virtual investors, and test marketing ideas — before building anything.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "Do I need to have a finished idea or product to use it?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Nope. All you need is a rough one-liner about your idea — our system expands it into a detailed simulation with target users, pain points, and objections.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+    question: "Is this meant to replace customer interviews?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "Not entirely. FirstCustomer helps you practice and sharpen your idea before real interviews — like a flight simulator for founders.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Can I export the results or use them in a pitch deck?",
+    answer:
+      "Yes. With the Pro plan, you can export user insights, pitch feedback, and marketing summaries as shareable reports or slides.",
     value: "item-4",
   },
   {
-    question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+    question: "How accurate are the simulations?",
+    answer:
+      "They're powered by GPT and grounded in startup best practices. While not real users, they mimic realistic objections, curiosity, and investor skepticism.",
     value: "item-5",
   },
 ];

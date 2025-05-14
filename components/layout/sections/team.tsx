@@ -25,17 +25,17 @@ export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
       imageUrl: "https://i.pravatar.cc/250?img=58",
-      firstName: "Leo",
-      lastName: "Miranda",
+      firstName: "Mohsin",
+      lastName: "Hayat",
       positions: ["Vue Fronted Developer", "Creator Of This Website"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/mohsinhayatt/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/mohsinht",
         },
         {
           name: "X",
@@ -52,7 +52,7 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/mohsinhayatt/",
         },
         {
           name: "X",
@@ -69,11 +69,11 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/mohsinhayatt/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/mohsinht",
         },
       ],
     },
@@ -86,11 +86,11 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/mohsinhayatt/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/mohsinht",
         },
         {
           name: "X",
@@ -107,7 +107,7 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/mohsinhayatt/",
         },
       ],
     },
@@ -120,11 +120,11 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/mohsinhayatt/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/mohsinht",
         },
       ],
     },
@@ -137,11 +137,11 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/mohsinhayatt/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/mohsinht",
         },
         {
           name: "X",

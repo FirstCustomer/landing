@@ -10,42 +10,43 @@ interface FeaturesProps {
 
 const featureList: FeaturesProps[] = [
   {
-    icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    icon: "Bot",
+    title: "AI-Powered Simulations",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Engage with dynamic GPT personas representing real users, investors, and critics — no human testing needed.",
   },
   {
-    icon: "BadgeCheck",
-    title: "Social Proof",
+    icon: "BrainCircuit",
+    title: "Smart Idea Expansion",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Input a single-line idea and watch it transform into detailed personas, use cases, and pain points using AI.",
   },
   {
-    icon: "Goal",
-    title: "Targeted Content",
+    icon: "LayoutDashboard",
+    title: "Interactive Founder Dashboard",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Track your simulations, feedback loops, pivots, and decision history — all from one clean, visual workspace.",
   },
   {
-    icon: "PictureInPicture",
-    title: "Strong Visuals",
+    icon: "Mic",
+    title: "Pitch Practice Engine",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Face off against simulated investors with personality-driven responses and real-time pitch critique.",
   },
   {
-    icon: "MousePointerClick",
-    title: "Clear CTA",
+    icon: "Megaphone",
+    title: "Marketing Test Lab",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Generate ad headlines and CTAs, simulate campaign results, and uncover what messaging actually resonates.",
   },
   {
-    icon: "Newspaper",
-    title: "Clear Headline",
+    icon: "FileBarChart2",
+    title: "Actionable Feedback Reports",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Each simulation ends with a summary: objections, interest signals, and suggestions — no fluff, just fuel.",
   },
 ];
+
 
 export const FeaturesSection = () => {
   return (
@@ -55,13 +56,11 @@ export const FeaturesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        What Powers <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">FirstCustomer.ai</span>
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        A founder’s simulation lab packed with tools to validate ideas, sharpen pitches, and explore early traction — without building a thing.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

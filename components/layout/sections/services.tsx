@@ -17,26 +17,40 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
   {
+    title: "Investor Deck Export",
+    description:
+      "Download AI-generated pitch decks from your investor simulations to use in real fundraising rounds.",
+    pro: 1,
+  },
+  {
+    title: "Landing Page Generator",
+    description:
+      "Instantly create a high-converting landing page from your validated idea and user conversations.",
+    pro: 1,
+  },
+  {
     title: "Custom Domain Integration",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Connect your own domain to showcase landing pages or share your startup profile.",
     pro: 0,
   },
   {
-    title: "Social Media Integrations",
+    title: "Feedback Summary Reports",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
-    pro: 0,
+      "Get detailed PDF summaries of each simulation session — ideal for sharing with co-founders or mentors.",
+    pro: 1,
   },
   {
     title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    description:
+      "Connect tools like Mailchimp or ConvertKit to start nurturing early waitlist signups.",
     pro: 0,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
-    pro: 1,
+    title: "Public Idea Sharing",
+    description:
+      "Optionally share your simulation results to a public feed and get community feedback.",
+    pro: 0,
   },
 ];
 
@@ -48,11 +62,10 @@ export const ServicesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Grow Your Business
+        Power Features to Boost Your Startup Journey
       </h2>
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
-        expertise to help you achieve your goals.
+        Go beyond simulations — generate decks, create landing pages, and connect the tools you already use. These services turn insights into real traction.
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 

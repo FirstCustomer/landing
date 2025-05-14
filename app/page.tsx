@@ -12,30 +12,31 @@ import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
-  title: "Shadcn - Landing template",
-  description: "Free Shadcn landing page for developers",
+  title: "FirstCustomer.ai – Simulate Your First Customer in Seconds",
+  description:
+    "FirstCustomer.ai lets you chat with AI personas, refine your pitch, and test marketing—before you write a single line of code.",
   openGraph: {
     type: "website",
-    url: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
+    url: "https://firstcustomer.ai",
+    title: "FirstCustomer.ai – Simulate Your First Customer in Seconds",
+    description:
+      "Chat with AI personas, refine your investor pitch, and validate demand—instantly and risk-free.",
     images: [
       {
-        url: "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
+        url: "https://firstcustomer.ai/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Shadcn - Landing template",
+        alt: "FirstCustomer.ai — Simulate your first customer with AI",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "https://github.com/nobruf/shadcn-landing-page.git",
-    title: "Shadcn - Landing template",
-    description: "Free Shadcn landing page for developers",
-    images: [
-      "https://res.cloudinary.com/dbzv9xfjp/image/upload/v1723499276/og-images/shadcn-vue.jpg",
-    ],
+    site: "@FirstCustomerAI",                // your Twitter handle
+    title: "FirstCustomer.ai – Simulate Your First Customer",
+    description:
+      "Experience AI-driven customer simulation, pitch practice, and marketing tests—all in one place.",
+    images: ["https://firstcustomer.ai/og-image.png"],
   },
 };
 
@@ -43,14 +44,9 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <SponsorsSection />
       <BenefitsSection />
       <FeaturesSection />
       <ServicesSection />
-      <TestimonialSection />
-      <TeamSection />
-      <CommunitySection />
-      <PricingSection />
       <ContactSection />
       <FAQSection />
       <FooterSection />

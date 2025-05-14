@@ -10,28 +10,28 @@ interface BenefitsProps {
 
 const benefitList: BenefitsProps[] = [
   {
-    icon: "Blocks",
-    title: "Build Brand Trust",
+    icon: "Users",
+    title: "Talk to Your First 100 Users",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Simulate conversations with AI personas to uncover real user needs, objections, and excitement before writing a line of code.",
   },
   {
-    icon: "LineChart",
-    title: "More Leads",
+    icon: "BarChart3",
+    title: "Validate Before You Build",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Test your product-market fit in minutes — not months — through realistic feedback loops and structured insights.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Save Time & Money",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Avoid the cost of building something no one wants. Get clarity on what to launch, pivot, or kill early.",
   },
   {
-    icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    icon: "Sparkles",
+    title: "Test Marketing & Messaging",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Simulate landing pages and ad creatives to see what resonates — before spending a dime on real campaigns.",
   },
 ];
 
@@ -43,12 +43,11 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            Simulate Success Before You Build
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            FirstCustomer.ai helps you talk to AI-simulated users, test investor questions,
+  and experiment with messaging — so you can move fast, learn early, and launch smarter.
           </p>
         </div>
 
