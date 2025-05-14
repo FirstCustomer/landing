@@ -10,6 +10,7 @@ import { ServicesSection } from "@/components/layout/sections/services";
 import { SponsorsSection } from "@/components/layout/sections/sponsors";
 import { TeamSection } from "@/components/layout/sections/team";
 import { TestimonialSection } from "@/components/layout/sections/testimonial";
+import { VisualMockupSection } from "../components/layout/sections/visualMockup";
 
 export const metadata = {
   title: "FirstCustomer.ai – Simulate Your First Customer in Seconds",
@@ -44,6 +45,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <VisualMockupSection />
       <BenefitsSection />
       <FeaturesSection />
       <ServicesSection />
