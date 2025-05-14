@@ -69,7 +69,7 @@ export const ContactSection = () => {
 
             <h2 className="text-3xl md:text-4xl font-bold">Connect With Us</h2>
           </div>
-          <p className="mb-8 text-muted-foreground lg:w-5/6">
+          <div className="mb-8 text-muted-foreground lg:w-5/6">
             While FirstCustomer.ai is currently in development, we're actively building with early users in mind.
             <br />
             <br />
@@ -82,7 +82,7 @@ export const ContactSection = () => {
             </ul>
             <br />
             If you're excited about simulating your first users, investors, and marketing experiments — we'd love to hear from you.
-          </p>
+          </div>
         </div>
 
         <Card className="bg-muted/60 dark:bg-card">
