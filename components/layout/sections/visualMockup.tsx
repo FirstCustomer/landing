@@ -100,7 +100,7 @@ const steps = [
     desc: 'Our AI agents behave just like real interviewees—asking follow-ups, digging into your answers, and remembering context so you can practice true back-and-forth dialogue.',
     icon: 'MessageCircle',
     content: (
-      <div className="flex flex-col gap-6 bg-background border border-muted rounded-md py-6 px-0 shadow max-w-xl mx-auto">
+      <div className="flex flex-col gap-6 bg-background border sm:border-muted rounded-md py-0 sm:py-6 px-0 shadow max-w-xl mx-auto">
         {/* Thread 1: Dr. Martinez */}
         <div className="bg-muted/30 border border-muted rounded-lg p-4 flex flex-col gap-2 shadow-inner w-full max-w-full sm:max-w-[90%] mx-auto">
           <div className="flex flex-col gap-2">
