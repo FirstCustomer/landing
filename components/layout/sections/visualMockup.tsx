@@ -97,66 +97,81 @@ const steps = [
   },
   {
     title: 'Have a Real Conversation',
-    desc: 'Talk to AI like a real customer interview.',
+    desc: 'Our AI agents behave just like real interviewees—asking follow-ups, digging into your answers, and remembering context so you can practice true back-and-forth dialogue.',
     icon: 'MessageCircle',
     content: (
-      <div className='flex flex-col gap-4 bg-background border border-muted rounded-md p-6 shadow max-w-xl mx-auto'>
-        {/* Example 1 */}
-        <div className='flex flex-col gap-2'>
-          <div className='bg-muted px-5 py-3 rounded-lg w-fit max-w-[80%] self-start text-sm shadow-sm'>
-            <span className='font-medium text-primary'>Dr. Martinez:</span>{' '}
-            <span>“How do you ensure early ulcer detection?”</span>
+      <div className="flex flex-col gap-6 bg-background border border-muted rounded-md p-6 shadow max-w-xl mx-auto">
+        {/* Thread 1: Dr. Martinez */}
+        <div className="bg-muted/30 border border-muted rounded-lg p-4 flex flex-col gap-2 shadow-inner">
+          <div className="flex flex-col gap-2">
+            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-start text-sm shadow-sm break-words">
+              <span className="font-medium text-primary">Dr. Martinez:</span>{' '}
+              <span>“How do you ensure early ulcer detection?”</span>
+            </div>
+            <div className="bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-end text-sm shadow break-words">
+              <span className="font-medium">You:</span>{' '}
+              <span>
+                “We use pressure-sensing insoles calibrated weekly—alerts trigger at a 2× risk threshold.”
+              </span>
+            </div>
+            {/* Typing indicator */}
+            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-start text-sm flex items-center gap-2 mt-1 break-words">
+              <span className="font-medium text-primary">Dr. Martinez:</span>
+              <span className="flex items-center gap-1">
+                <span className="inline-block w-2 h-2 rounded-full bg-muted-foreground animate-bounce [animation-delay:0ms]" />
+                <span className="inline-block w-2 h-2 rounded-full bg-muted-foreground animate-bounce [animation-delay:150ms]" />
+                <span className="inline-block w-2 h-2 rounded-full bg-muted-foreground animate-bounce [animation-delay:300ms]" />
+              </span>
+              <span className="text-xs text-muted-foreground ml-2"></span>
+            </div>
           </div>
-          <div className='bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[80%] self-end text-sm shadow'>
-            <span className='font-medium'>You:</span>{' '}
-            <span>
-              “We use pressure-sensing insoles calibrated weekly—alerts trigger
-              at a 2× risk threshold.”
+          <div className="mt-3 flex items-center gap-2">
+            <span className="inline-block px-2 py-1 rounded bg-green-100 text-green-700 text-xs font-semibold">
+              Insight
+            </span>
+            <span className="text-xs text-muted-foreground">
+              Highlighted need for clinical-grade calibration.
             </span>
           </div>
         </div>
-        {/* Example 2 */}
-        <div className='flex flex-col gap-2'>
-          <div className='bg-muted px-5 py-3 rounded-lg w-fit max-w-[80%] self-start text-sm shadow-sm'>
-            <span className='font-medium text-primary'>James:</span>{' '}
-            <span>“I’m not great with apps. Can I get voice prompts?”</span>
+        {/* Thread 2: James */}
+        <div className="bg-muted/30 border border-muted rounded-lg p-4 flex flex-col gap-2 shadow-inner">
+          <div className="flex flex-col gap-2">
+            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-start text-sm shadow-sm break-words">
+              <span className="font-medium text-primary">James:</span>{' '}
+              <span>“I’m not great with apps. Can I get voice prompts?”</span>
+            </div>
+            <div className="bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-end text-sm shadow break-words">
+              <span className="font-medium">You:</span>{' '}
+              <span>
+                “Absolutely. We support voice guidance and large-text mode so it’s senior-friendly.”
+              </span>
+            </div>
+            {/* AI follow-up bubble */}
+            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-start text-sm mt-1 break-words">
+              <span className="font-medium text-primary">James:</span>{' '}
+              <span className="text-muted-foreground">“Can you tell me more about the large-text mode?”</span>
+            </div>
           </div>
-          <div className='bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[80%] self-end text-sm shadow'>
-            <span className='font-medium'>You:</span>{' '}
-            <span>
-              “Absolutely. We support voice guidance and large-text mode so it’s
-              senior-friendly.”
+          <div className="mt-3 flex items-center gap-2">
+            <span className="inline-block px-2 py-1 rounded bg-green-100 text-green-700 text-xs font-semibold">
+              Insight
+            </span>
+            <span className="text-xs text-muted-foreground">
+              Voice-first onboarding increases accessibility.
             </span>
           </div>
         </div>
-        {/* Example 3 */}
-        <div className='flex flex-col gap-2'>
-          <div className='bg-muted px-5 py-3 rounded-lg w-fit max-w-[80%] self-start text-sm shadow-sm'>
-            <span className='font-medium text-primary'>Maria:</span>{' '}
-            <span>“How quickly do caregivers get notified?”</span>
-          </div>
-          <div className='bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[80%] self-end text-sm shadow'>
-            <span className='font-medium'>You:</span>{' '}
-            <span>
-              “Caregivers receive instant mobile alerts and a daily summary
-              dashboard.”
-            </span>
-          </div>
-        </div>
-        {/* Example 4 */}
-        <div className='flex flex-col gap-2'>
-          <div className='bg-muted px-5 py-3 rounded-lg w-fit max-w-[80%] self-start text-sm shadow-sm'>
-            <span className='font-medium text-primary'>Kevin:</span>{' '}
-            <span>“Can this integrate with hospital EMRs?”</span>
-          </div>
-          <div className='bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[80%] self-end text-sm shadow'>
-            <span className='font-medium'>You:</span>{' '}
-            <span>
-              “Yes, we offer secure API access for EMR integration and HIPAA
-              compliance.”
-            </span>
-          </div>
-        </div>
+        {/* You can add more threads below in the same pattern */}
+        <style>{`
+          @keyframes bounce {
+            0%, 80%, 100% { transform: scale(1); opacity: 0.6; }
+            40% { transform: scale(1.3); opacity: 1; }
+          }
+          .animate-bounce {
+            animation: bounce 1.2s infinite;
+          }
+        `}</style>
       </div>
     )
   },
