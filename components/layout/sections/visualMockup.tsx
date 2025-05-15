@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Icon } from '@/components/ui/icon';
 import { icons } from 'lucide-react';
+import { useTheme } from 'next-themes';
 
 const steps = [
   {
@@ -50,7 +51,7 @@ const steps = [
       <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-2xl mx-auto'>
         {/* Dr. Elena Martinez */}
         <div className='bg-card border border-muted rounded-xl shadow p-5 flex flex-col items-center text-center'>
-          <Icon name='User' size={40} className='text-primary mb-2' color='white' />
+          <Icon name='User' size={40} className='text-primary mb-2' color='orange' />
           <div className='font-semibold text-lg'>Dr. Elena Martinez</div>
           <div className='text-sm text-muted-foreground mb-1'>
             52 &middot; Endocrinologist
@@ -61,7 +62,7 @@ const steps = [
         </div>
         {/* James Liu */}
         <div className='bg-card border border-muted rounded-xl shadow p-5 flex flex-col items-center text-center'>
-          <Icon name='User' size={40} className='text-primary mb-2' color='white' />
+          <Icon name='User' size={40} className='text-primary mb-2' color='orange' />
           <div className='font-semibold text-lg'>James Liu</div>
           <div className='text-sm text-muted-foreground mb-1'>
             68 &middot; Diabetes Patient
@@ -72,7 +73,7 @@ const steps = [
         </div>
         {/* Maria Rossi */}
         <div className='bg-card border border-muted rounded-xl shadow p-5 flex flex-col items-center text-center'>
-          <Icon name='User' size={40} className='text-primary mb-2' color='white' />
+          <Icon name='User' size={40} className='text-primary mb-2' color='orange' />
           <div className='font-semibold text-lg'>Maria Rossi</div>
           <div className='text-sm text-muted-foreground mb-1'>
             34 &middot; Home Health Nurse
@@ -83,7 +84,7 @@ const steps = [
         </div>
         {/* Kevin Patel */}
         <div className='bg-card border border-muted rounded-xl shadow p-5 flex flex-col items-center text-center'>
-          <Icon name='User' size={40} className='text-primary mb-2' color='white' />
+          <Icon name='User' size={40} className='text-primary mb-2' color='orange' />
           <div className='font-semibold text-lg'>Kevin Patel</div>
           <div className='text-sm text-muted-foreground mb-1'>
             29 &middot; Health-tech Founder
