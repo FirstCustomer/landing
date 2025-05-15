@@ -100,22 +100,22 @@ const steps = [
     desc: 'Our AI agents behave just like real interviewees—asking follow-ups, digging into your answers, and remembering context so you can practice true back-and-forth dialogue.',
     icon: 'MessageCircle',
     content: (
-      <div className="flex flex-col gap-6 bg-background border border-muted rounded-md p-6 shadow max-w-xl mx-auto">
+      <div className="flex flex-col gap-6 bg-background border border-muted rounded-md py-6 px-0 shadow max-w-xl mx-auto">
         {/* Thread 1: Dr. Martinez */}
-        <div className="bg-muted/30 border border-muted rounded-lg p-4 flex flex-col gap-2 shadow-inner">
+        <div className="bg-muted/30 border border-muted rounded-lg p-4 flex flex-col gap-2 shadow-inner w-full max-w-full sm:max-w-[90%] mx-auto">
           <div className="flex flex-col gap-2">
-            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-start text-sm shadow-sm break-words">
+            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[98vw] sm:max-w-[80%] self-start text-sm shadow-sm break-words">
               <span className="font-medium text-primary">Dr. Martinez:</span>{' '}
               <span>“How do you ensure early ulcer detection?”</span>
             </div>
-            <div className="bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-end text-sm shadow break-words">
+            <div className="bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[98vw] sm:max-w-[80%] self-end text-sm shadow break-words">
               <span className="font-medium">You:</span>{' '}
               <span>
                 “We use pressure-sensing insoles calibrated weekly—alerts trigger at a 2× risk threshold.”
               </span>
             </div>
             {/* Typing indicator */}
-            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-start text-sm flex items-center gap-2 mt-1 break-words">
+            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[98vw] sm:max-w-[80%] self-start text-sm flex items-center gap-2 mt-1 break-words">
               <span className="font-medium text-primary">Dr. Martinez:</span>
               <span className="flex items-center gap-1">
                 <span className="inline-block w-2 h-2 rounded-full bg-muted-foreground animate-bounce [animation-delay:0ms]" />
@@ -135,20 +135,20 @@ const steps = [
           </div>
         </div>
         {/* Thread 2: James */}
-        <div className="bg-muted/30 border border-muted rounded-lg p-4 flex flex-col gap-2 shadow-inner">
+        <div className="bg-muted/30 border border-muted rounded-lg p-4 flex flex-col gap-2 shadow-inner w-full max-w-full sm:max-w-[90%] mx-auto">
           <div className="flex flex-col gap-2">
-            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-start text-sm shadow-sm break-words">
+            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[98vw] sm:max-w-[80%] self-start text-sm shadow-sm break-words">
               <span className="font-medium text-primary">James:</span>{' '}
               <span>“I’m not great with apps. Can I get voice prompts?”</span>
             </div>
-            <div className="bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-end text-sm shadow break-words">
+            <div className="bg-primary text-primary-foreground px-5 py-3 rounded-lg w-fit max-w-[98vw] sm:max-w-[80%] self-end text-sm shadow break-words">
               <span className="font-medium">You:</span>{' '}
               <span>
                 “Absolutely. We support voice guidance and large-text mode so it’s senior-friendly.”
               </span>
             </div>
             {/* AI follow-up bubble */}
-            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[95vw] sm:max-w-[80%] self-start text-sm mt-1 break-words">
+            <div className="bg-muted px-5 py-3 rounded-lg w-fit max-w-[98vw] sm:max-w-[80%] self-start text-sm mt-1 break-words">
               <span className="font-medium text-primary">James:</span>{' '}
               <span className="text-muted-foreground">“Can you tell me more about the large-text mode?”</span>
             </div>
@@ -212,7 +212,7 @@ const steps = [
 
 export const VisualMockupSection = () => {
   return (
-    <section id='how-it-works' className='container py-24 sm:py-32'>
+    <section id='how-it-works' className='container py-24 sm:py-32 p-0'>
       <div
         className='
           relative
@@ -221,7 +221,7 @@ export const VisualMockupSection = () => {
           overflow-hidden
           shadow-inner
           bg-opacity-15
-          w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl
+          w-full sm:w-[90%] md:w-[70%] lg:w-[75%] lg:max-w-screen-xl
           mx-auto
           border border-secondary
           z-30
